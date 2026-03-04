@@ -9,18 +9,18 @@ class Aai < Formula
   on_macos do
     on_arm do
       url "https://github.com/alexkroman/aai-agent/releases/download/v0.1.0/aai-darwin-arm64.tar.gz"
-      sha256 "ff11dc2f3779b7624968437c3460a3530ee368ab51d8b6e863fbd9f4a33ab420"
+      sha256 "ab3d4ee6b56a4c9e1600bbe0e89c1cc21ab0885c01cba15106ea5880435406d2"
     end
     on_intel do
       url "https://github.com/alexkroman/aai-agent/releases/download/v0.1.0/aai-darwin-x64.tar.gz"
-      sha256 "35d90d48bcc85f103d7c8248107ef3c89523193fa03f70b53bd632e07964fe5d"
+      sha256 "379e4445604f3e78b34902d59b5d4b85accaef1fc31312ca6257693cbce2c767"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/alexkroman/aai-agent/releases/download/v0.1.0/aai-linux-x64.tar.gz"
-      sha256 "8b2f89311c439fc11a129b37c4030156a47fc4eb15ea171417b2bbb27c3da8c6"
+      sha256 "a5f96741e7e50cea48553b4acb86169b720729a3b27654921b08afa9957c9738"
     end
   end
 
