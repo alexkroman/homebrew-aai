@@ -1,26 +1,26 @@
 class Aai < Formula
   desc "Voice agent development toolkit"
   homepage "https://github.com/alexkroman/aai"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   depends_on "esbuild"
 
   on_macos do
     on_arm do
-      url "https://github.com/alexkroman/aai/releases/download/v0.1.1/aai-darwin-arm64.tar.gz"
-      sha256 "5502c90742b7c559fdf11357a1f3bbfb1822c1747ed19ecad653c2e307c7a1b8"
+      url "https://github.com/alexkroman/aai/releases/download/v0.1.2/aai-darwin-arm64.tar.gz"
+      sha256 "484275c137ac3a9dc63edcbd51002b54c195bfced76dd8926707049324497292"
     end
     on_intel do
-      url "https://github.com/alexkroman/aai/releases/download/v0.1.1/aai-darwin-x64.tar.gz"
-      sha256 "25c6221bb3a9bb1536291d89161019b092bee8113d0349323c88d3bd4e1a72c4"
+      url "https://github.com/alexkroman/aai/releases/download/v0.1.2/aai-darwin-x64.tar.gz"
+      sha256 "ba3e5331ec23855e92ac96a86559b293db6ce3ad0d8c8b02b9fa8c4c93cca093"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/alexkroman/aai/releases/download/v0.1.1/aai-linux-x64.tar.gz"
-      sha256 "78fb35f903f99777111be32fa4fbd5c7b62700de7691a77a6105294cd3127c14"
+      url "https://github.com/alexkroman/aai/releases/download/v0.1.2/aai-linux-x64.tar.gz"
+      sha256 "675f07a1f12178838dd22b17b88106d3d06e40a6c19562968d9d1eaf63601265"
     end
   end
 
