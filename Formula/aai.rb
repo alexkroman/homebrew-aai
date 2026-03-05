@@ -5,7 +5,7 @@ class Aai < Formula
   license "MIT"
 
   depends_on "esbuild"
-  depends_on "cloudflare/cloudflare/cloudflared"
+  depends_on "cloudflare"
 
   on_macos do
     on_arm do
